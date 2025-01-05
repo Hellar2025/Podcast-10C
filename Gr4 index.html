@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gruppe 4</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #90BAAD;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #90BAAD;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #9FD8CB;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>BMV podcast</h2>
+</header>
+
+<section>
+  <nav>
+   <h3>Gruppe 4:<br></h3>
+    <p>B=Balder<br>
+     M= Malin<br> V=Viktoria</p>
+     <img src="legemiddel.jpeg" alt="legemiddel" width="200" height="200">
+  </nav>
+  
+  <article>
+
+    <h1></h1>
+    <p>Legemidel er stoffer, droger og preparater som gis for å forebygge,<br> kurere eller lindre sykdom eller symptomer på sykdom.<br> Legemidel gis til mennesker<br> eller dyr for å gjenopprette eller påverke fysiologiske funksjoner i <br>kroppen gjennom en farmakologisk, immunologisk eller metabolsk virkning-snl.no</p>
+    
+    <h3>Kjelder<br></h3><a href="https://sml.snl/legemidler">Store norske leksikon</a><br><a href="https://www.boots.no/rad-og-tips/respt-og-medisin/hva-er-et-legemiddel">Boots</a><br>
+    <a href="https://www.ung.no/oss/zMsgknwAdUKTjOPntHhJaG">Ung.no</a>og så boka som kilder </p>
+   
+<video width="400" controls>
+  <source src="Gr4 podcast.mp4" type="video/mp4">
+</video>
+
+  </article>
+</section>
+
+</body>
+</html>
+
