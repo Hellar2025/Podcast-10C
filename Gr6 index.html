@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gruppe 6</title>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 700px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 700px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Podcast kapittel 4. Sara og Olav</h2>
+
+<header>
+  <h2>Doping - Skader på kropp og sjel</h2>
+</header>
+<section>
+  <nav>
+    <h3>Kilder</h3>
+    <ul>
+      <li><a href="https://nhi.no/trening/aktivitet-og-helse/doping/doping-og-skadevirkninger">nhi.no</a></li>
+      <li><a href="https://sml.snl.no/doping">snl.no</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Hva er doping</h1>
+    <img src="Gr6 Steroider.jpg" alt="Steroider" width="500" height="333">
+    <p>Doping er produkter som gir kunstig forbedring av presentasjonsevnen, og anabole steroider er en type doping. Folk bruker steroider for å bli større raskere, fordi at de ønsker kjappe resultater. Doping er forbudt i konkurranseidrett, inkludert anabole steroider. Disse stoffene etterlinger effekten av testosteron, som er hromonet som bidrar til at gutter utvikler større muskler i puberteten.  Anabole steroider kan gi alvorlige bivirkninger, spesielt for ungdom. Langvarig bruk eller høye doser kan føre til at ungdom blir lavere enn normalt, fordi skjelettet modnes for raskt. Vanlige bivirkninger inkluderer aggressiv oppførsel, kviser og økt hårvekst. Doping kan også øke risikoen for hjerteproblemer, og den raske muskelveksten kan skade sener og muskler.  Bruk av anabole steroider forstyrrer balansen av kjønnshormoner. Man kan oppleve lavere testosteronnivåer, som kan føre til feminine trekk, impotens og redusert sexlyst. For kvinner kan for mye testosteron gi maskuline trekk som dypere stemme og mer kroppshår. Begge kjønn kan risikere sterilitet, altså vansker med å få barn.</p>
+<audio controls>
+  <source src="Gr6 podcast.mp3" type="audio/mpeg">
+</audio>
+  </article>
+</section>
+
+<footer>
+  <p>Don't do drugs</p>
+</footer>
+
+
+</body>
+</html>
